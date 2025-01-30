@@ -3,6 +3,7 @@ package org.cphbusiness;
 public class Main {
     public static void main(String[] args) {
         fizzBuzz();
+        printNumbers(1, 10);
     }
 
     public static void fizzBuzz() {
@@ -18,4 +19,13 @@ public class Main {
             }
         }
     }
+
+    public static void printNumbers(int start, int end) {
+        for (int i = start; i <= end; i++) {
+            System.out.print(i + " ");
+        }
+
+    }
+
+
 }
