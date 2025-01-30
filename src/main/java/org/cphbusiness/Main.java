@@ -7,7 +7,7 @@ public class Main {
     }
 
     public static void fizzBuzz() {
-        for (int i = 1; i <= 200; i++) {
+        for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0) {
                 System.out.println("Fizz");
             }
